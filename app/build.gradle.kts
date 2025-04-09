@@ -7,6 +7,10 @@ android {
     namespace = "com.github.nicolasvpagliari"
     compileSdk = 34
 
+    viewBinding {
+        enable = true;
+    }
+
     defaultConfig {
         applicationId = "com.github.nicolasvpagliari"
         minSdk = 24
